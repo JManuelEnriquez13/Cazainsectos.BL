@@ -19,6 +19,7 @@ namespace Cazainsectos.BL.Contexts
                 command.Parameters.AddWithValue("address", company.Address);
                 command.Parameters.AddWithValue("city", company.City);
                 command.Parameters.AddWithValue("zipCode", company.ZipCode);
+                command.Parameters.AddWithValue("neighborhood", company.Neighborhood);
                 command.Parameters.AddWithValue("rfc", company.Rfc);
                 command.Parameters.AddWithValue("billEmail", company.BillEmail);
                 command.Parameters.AddWithValue("billAddress", company.BillAddress);

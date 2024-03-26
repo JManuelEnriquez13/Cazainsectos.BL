@@ -155,5 +155,7 @@ namespace Cazainsectos.BL.Models
         public int IsComplemented { get; set; }
 
         public int? ComplementNo { get; set; }
+
+        public string EventType { get; set; }
     }
 }
